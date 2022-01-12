@@ -4,5 +4,17 @@
 //Alumno: Pimentel Hernández Marco Antonio
 //correo: marcoaph421028214@gmail.com 
 
-p1
+class Automovil{
+  String _marca = "Ferrari";
+  int precio = 0;
+  String _dueno = "Enzo Ferrari";
+  bool pagoDiferido = true;
+  
+  void arrancar (String arranca){
+  print("$arranca");
+  }
+  
+  void frenar(String frena){
+  print("$frena");
+  }
 
